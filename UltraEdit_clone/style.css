@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  margin: 0px 70px;
+  margin-top: 22px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  /* font-style: normal; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0px 30px;
+}
+
+span > img {
+  margin: 0px 20px;
+}
+
+.download h1,
+p {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-size: 46px;
+}
+.download{
+    margin-top: 22vh;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text > h1{
+    margin-right: 25px;
+}
+.p_or_btn > p {
+  font-size: 25px;
+}
+
+.p_or_btn{
+    text-align: center;
+}
+
+.download_btn{
+    margin-left: 542px;
+    margin-top: 40px;
+    height: 50px;
+    width: 274px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    background-color: #00b6d1;
+    color: white;
+}
+.product_heading img{
+    height: 55px;
+}
+
+.product_heading{
+    margin-top: 15vh;
+    margin-left: 41vh;
+    display: flex;
+    align-items: flex-end;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.product_heading h3{
+    margin: 0px 10px 10px 20px;
+    font-weight: 300;
+    font-size: 24px
+}
+.product_heading  span{
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+.product_heading > p{
+    margin-bottom: 15px;
+    font-size: 60%;
+    margin-right: 2px;
+    font-weight: 400;
+}
+
+.product_item{
+    margin: 15vh 10vw  0px 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 25px;
+    box-sizing: border-box;
+}
+.box{
+    max-width: 302px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+.box button{
+    margin-top: 25px;
+    background-color: #5CB85C;
+    color: #ffff;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.box p{
+    margin: 10px 0px;
+    font-size: 60%;
+}
+
+
+.foot1{
+  margin-top: 10vh;
+  padding-top: 17vh;
+  height: 110vh;
+  background-color: black;
+  color: white;
+}
+
+.join{
+  /* margin: 0px 15vh 0px 15vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+.join div:first-child{
+  max-width: 70vh;
+  text-align: center;
+}
+
+.join div:first-child  p{
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.join div:first-child  p:last-child{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+.join div:last-child{
+  background-color: white;
+  color: #222;
+  height: 45vh;
+  width: 55vh;
+  border-radius: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.join div:last-child p:first-child{
+  margin: 45px 0px 30px 0px;
+  font-size: 23px;
+  color: #00b6d1;
+  font-weight: normal;
+}
+
+.join div:last-child  p:nth-child(2){
+  font-size: 15px;
+}
+
+.input_text{
+  margin-bottom: 17px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.input_text_h{
+  height: 43px;
+  width: 290px;
+}
+
+.button{
+  background-color: #00b6d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+  /* font-weight: 500; */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button_h{
+  height: 50px;
+  width: 290px;
+}
+
+.foot_text{
+  max-width: 80vw;
+  margin-left: 10vw;
+  margin-top: 20vh;
+}
+
+.foot_text p{
+  font-size: 17px;
+  margin: 5px 0px;
+}
+
+.foot_text p:first-child{
+  font-size: 30px;
+}
+
+.foot_text p:nth-child(4){
+  font-size: 30px;
+}
+
+
+.footer_content{
+  margin-left: 7.5vw;
+  margin-top: 12vh;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.c_box{
+  width: 40vh;
+}
+
+.c_box p{
+  font-size: 15px;
+}
+p.white{
+  white-space: pre-line;
+}
+
+.h_w{
+  width: 14vw;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.c_box .input_text{
+  margin-top: 20px;
+} 
+
+
+.foot_icon{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 450px;
+}
+
+.foot_p p:first-child{
+  margin:10px 0px 40px 240px;
+  font-size: 11px;
+}
+
+.foot_p p:last-child{
+  font-size: 11px;
+  white-space: pre-line;
+  text-align: right;
+}
