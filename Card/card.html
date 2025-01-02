@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color:lightgrey;
+            font-family: "Poppins", serif;
+            font-weight: 400;
+        }
+
+        .container {
+            margin: 40px 0px;
+            background-color: white;
+            border: 2px solid whiteblack;
+            border-radius: 20px;
+            height: 87vh;
+            width: 60vh;
+            position: absolute;
+            left: 40%;
+        }
+
+        img {
+            border-radius: 20px;
+            width: 58.3vh;
+            padding: 5px;
+        }
+
+        .contant {
+            padding: 0px 20px;
+        }
+
+        button {
+            background-color: white;
+            margin-left: 9px;
+            border-radius: 30px;
+            border: 1px solid gray;
+            height: 30px;
+            width: 70px;
+            font-family: "Poppins", serif;
+            font-weight: 500;
+        }
+
+        /* button:nth-child(2){
+            margin-left: 10px;
+        } */
+        button:last-child {
+            background-color: rgb(61, 61, 226);
+            margin-left: 96px;
+            margin-top: 30px;
+            height: 40px;
+            width: 150px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+        .btn_more a{
+            color: white;
+
+        }
+
+        h2 {
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="image.jpg" alt="">
+        <div class="contant">
+            <button><a href="http://google.com">Nature</a></button>
+            <button><a href="http://google.com">Lake</a></button>
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero cumque nulla veniam, quis pariatur
+                tempore qui consectetur. Tempore tenetur voluptatem dignissimos amet.</p>
+            <button class="btn_more"><a href="google.com">Read More</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
