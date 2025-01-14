@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 15vw;
+    height: 65vh;
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: rgb(196, 196, 197);
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 14px 0px  ;
+}
+
+.container button{
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(72, 99, 150);
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 4px gray ;
+}
+
+
+.container ul li {
+    height: 25px;
+    padding-top: 0px;
+    list-style: none;
+    margin: 20px 10px;
+    border-radius: 5px;
+    /* letter-spacing: 1px; */
+    
+}
+
+.container ul li:first-child{
+    margin-top: 4px;
+}
+
+.container ul li:last-child{
+    margin-bottom: 4px;
+}
+
+
+.container ul li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 0.8rem;
+}
+
+
+/* animation */
+
+.container button:focus ~ ul{
+    margin: 0px 20px;
+    margin-top: 20px;
+    padding: 5px 0px;
+    background-color: rgb(150, 120, 206);
+    border-radius: 10px;
+    transition: all .8s ease-out;
+
+}
+
+
+
+.container button:hover{
+    transition:all .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.container ul li{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    z-index: -1;
+}
+
+.container > button:focus ~ ul li{
+    position: static;
+}
+
+.container ul li:hover{
+    background-color: rgb(255, 255, 255);
+    /* transform: skewx(2deg) skewY(2deg); */
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+p {
+    font-family: "Playwrite AU SA", serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+}
